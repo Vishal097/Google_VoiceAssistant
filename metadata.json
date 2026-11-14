@@ -1,0 +1,6 @@
+{
+  "name": "Cadence",
+  "description": "Personal AI voice executive assistant powered by Gemini Live and Google Calendar.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

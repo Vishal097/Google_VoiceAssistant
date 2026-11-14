@@ -1,0 +1,140 @@
+{
+  "calendars": [
+    {
+      "id": "primary",
+      "summary": "Executive Schedule",
+      "description": "Primary leadership & client meetings",
+      "primary": true,
+      "backgroundColor": "#2563EB",
+      "timeZone": "UTC",
+      "accessRole": "owner"
+    },
+    {
+      "id": "product-eng",
+      "summary": "Product & Engineering",
+      "description": "Sprint reviews, architecture & design syncs",
+      "primary": false,
+      "backgroundColor": "#0F766E",
+      "timeZone": "UTC",
+      "accessRole": "owner"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-seed-1",
+      "calendarId": "primary",
+      "summary": "Morning Leadership Standup",
+      "description": "Review weekly KPIs, unblock product launches, and align on client priorities.",
+      "location": "Executive Boardroom · Google Meet",
+      "hangoutLink": "https://meet.google.com/cadence-standup",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-14T09:30:00+00:00"
+      },
+      "end": {
+        "dateTime": "2026-11-14T10:00:00+00:00"
+      },
+      "attendees": [
+        {
+          "email": "sarah.chen@company.com",
+          "displayName": "Sarah Chen",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "marcus.lee@company.com",
+          "displayName": "Marcus Lee",
+          "responseStatus": "accepted"
+        }
+      ],
+      "htmlLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Morning+Leadership+Standup&dates=20261114T093000Z%2F20261114T100000Z&details=Review+weekly+KPIs%2C+unblock+product+launches%2C+and+align+on+client+priorities.&location=Executive+Boardroom+%C2%B7+Google+Meet"
+    },
+    {
+      "id": "evt-seed-2",
+      "calendarId": "primary",
+      "summary": "Q4 Architecture & Voice AI Review",
+      "description": "Evaluate latency benchmarks and rollout timeline for voice pipeline.",
+      "location": "Room 402",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-14T11:00:00+00:00"
+      },
+      "end": {
+        "dateTime": "2026-11-14T12:00:00+00:00"
+      },
+      "attendees": [
+        {
+          "email": "elena.rodriguez@company.com",
+          "displayName": "Elena Rodriguez",
+          "responseStatus": "accepted"
+        }
+      ],
+      "htmlLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Q4+Architecture+%26+Voice+AI+Review&dates=20261114T110000Z%2F20261114T120000Z&details=Evaluate+latency+benchmarks+and+rollout+timeline+for+voice+pipeline.&location=Room+402"
+    },
+    {
+      "id": "evt-seed-3",
+      "calendarId": "primary",
+      "summary": "Partner Sync: Meridian Ventures",
+      "description": "Quarterly roadmap update and strategic partnership check-in.",
+      "hangoutLink": "https://meet.google.com/cadence-partner",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-14T14:30:00+00:00"
+      },
+      "end": {
+        "dateTime": "2026-11-14T15:15:00+00:00"
+      },
+      "attendees": [
+        {
+          "email": "david.park@meridian.vc",
+          "displayName": "David Park",
+          "responseStatus": "tentative"
+        }
+      ],
+      "htmlLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Partner+Sync%3A+Meridian+Ventures&dates=20261114T143000Z%2F20261114T151500Z&details=Quarterly+roadmap+update+and+strategic+partnership+check-in."
+    },
+    {
+      "id": "evt-seed-4",
+      "calendarId": "primary",
+      "summary": "Design Critique: Mobile Companion",
+      "description": "Walk through updated typography, contrast ratios, and voice controls.",
+      "location": "Studio B",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-15T10:00:00+00:00"
+      },
+      "end": {
+        "dateTime": "2026-11-15T10:45:00+00:00"
+      },
+      "attendees": [
+        {
+          "email": "priya.nair@company.com",
+          "displayName": "Priya Nair",
+          "responseStatus": "accepted"
+        }
+      ],
+      "htmlLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Design+Critique%3A+Mobile+Companion&dates=20261115T100000Z%2F20261115T104500Z&details=Walk+through+updated+typography%2C+contrast+ratios%2C+and+voice+controls.&location=Studio+B"
+    },
+    {
+      "id": "evt-seed-5",
+      "calendarId": "product-eng",
+      "summary": "Engineering Sprint Planning",
+      "description": "Scope next two-week sprint tickets and assign owners.",
+      "hangoutLink": "https://meet.google.com/cadence-sprint",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-15T13:30:00+00:00"
+      },
+      "end": {
+        "dateTime": "2026-11-15T14:30:00+00:00"
+      },
+      "attendees": [
+        {
+          "email": "eng-leads@company.com",
+          "displayName": "Engineering Leads",
+          "responseStatus": "accepted"
+        }
+      ],
+      "htmlLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Engineering+Sprint+Planning&dates=20261115T133000Z%2F20261115T143000Z&details=Scope+next+two-week+sprint+tickets+and+assign+owners."
+    }
+  ]
+}
